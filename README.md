@@ -15,6 +15,11 @@ This App Features
 4. **Ajax-like Search Bar** - This app has a search bar used to instantly filter the list
 5. **Custom Swipe Action** - This app has a custom swipe gesture recognizer that allows for the item in the list to have actions executed against it.
 
+To Build...
+-------------------------
+The project uses git submodules. You may have to clone these submodules from the following URL(s) to get it to compile.
+Or you may be able to run the following to update: 'git submodule foreach git pull'. At Any rate the submodules may be found by running 'git submodule'.
+
 To Run...
 -------------------------
 I have a sinatra ruby script in the test directory to help with my unit tests. You will have to use this if you want to see data returned. Just navigate to the directory that server.rb is located and execute 'ruby server.rb'.
