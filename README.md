@@ -1,4 +1,4 @@
-IOS_Example_App
-===============
+myThriftList---iOS
+==================
 
-This is a simple utility listview app to be used as a code sample
+myThriftList - iOS

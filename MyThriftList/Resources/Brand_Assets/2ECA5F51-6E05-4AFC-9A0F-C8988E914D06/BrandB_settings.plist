@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>secretClientRedirect</key>
+	<string>http://localhost:4567/</string>
+	<key>secretAPIKey</key>
+	<string>none</string>
+	<key>version</key>
+	<integer>1</integer>
+	<key>secretClientSecret</key>
+	<string>none</string>
+	<key>secretNamespace</key>
+	<string>none</string>
+	<key>secretRealm</key>
+	<string>none</string>
+</dict>
+</plist>

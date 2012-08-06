@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>encrypted</key>
+	<false/>
+	<key>lastOverrideVersion</key>
+	<integer>0</integer>
+	<key>pageSize</key>
+	<integer>25</integer>
+	<key>secretAPIKey</key>
+	<string>none</string>
+	<key>secretAuthenticationToken</key>
+	<string>none</string>
+	<key>secretClientRedirect</key>
+	<string>none</string>
+	<key>secretClientSecret</key>
+	<string>none</string>
+	<key>secretEndpoint</key>
+	<string>http://localhost:4567/</string>
+	<key>secretNamespace</key>
+	<string>none</string>
+	<key>secretRealm</key>
+	<string>none</string>
+	<key>secretRefreshToken</key>
+	<string>none</string>
+	<key>secretPushToken</key>
+	<string>none</string>
+	<key>secretDeviceID</key>
+	<string>none</string>
+	<key>offersListLastRefresh</key>
+	<date>2012-06-19T13:50:55Z</date>
+	<key>shoppingListLastRefresh</key>
+	<date>2012-07-09T16:58:05Z</date>
+	<key>minimumRefreshIntervalInMinutes</key>
+	<integer>1</integer>
+	<key>lastInstallOrIgnoreVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

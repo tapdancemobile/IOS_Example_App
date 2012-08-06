@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite errors="0" failures="0" hostname="mac-users-macbook.local" name="EnvironmentTest" tests="3" time="0.0" timestamp="Wed Aug 01 14:50:54 -0400 2012"><testcase classname='EnvironmentTest' name='testTearDownOfSharedClient' time='0.001' />
+<testcase classname='EnvironmentTest' name='testSharedSingleton' time='0.005' />
+<testcase classname='EnvironmentTest' name='testPersistenceToObjectStore' time='0.021' />
+</testsuite>

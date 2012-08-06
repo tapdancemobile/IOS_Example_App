@@ -1,0 +1,11 @@
+{
+    "Retailer" : "Inmar",
+    "BGColorDefault" : "#FFFFF0",
+    "TextColorDefault" : "#000000",
+    "TextStyleDefault" : "",
+    "ActionButtonColorDefault" : "#007ebe",
+    "TableRowColorDefault" : "#007ebe",
+    "NavBarColorDefault" : "#007ebe",
+    "TabBarColorDefault" : "#007ebe",
+    "TabBarItemSelectedColorDefault" : "#FFFFFF"
+}

@@ -1,0 +1,11 @@
+{
+    "Retailer" : "Hillers",
+    "BGColorDefault" : "#FFFFFF",
+    "TextColorDefault" : "#000000",
+    "TextStyleDefault" : "",
+    "ActionButtonColorDefault" : "#F2162B",
+    "TableRowColorDefault" : "#FFFFFF",
+    "NavBarColorDefault" : "#F2162B",
+    "TabBarColorDefault" : "#F2162B",
+    "TabBarItemSelectedColorDefault" : "#FFFFFF"
+}

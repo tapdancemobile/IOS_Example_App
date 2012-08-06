@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Offer ListVC - 1st-->
+        <scene sceneID="DNY-Zx-7R4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3zg-h4-2yN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="1st" id="jzv-NS-wWR" customClass="OfferListVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iU9-ze-L58">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" image="large_logo.png" id="TGd-ZF-OhQ">
+                                <rect key="frame" x="60" y="108" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="XZp-Xa-3kz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" id="zGt-JL-5c5">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="jzv-NS-wWR" id="WuX-WQ-XNL"/>
+                                    </connections>
+                                </searchBar>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jzv-NS-wWR" id="Hf0-0N-Utu"/>
+                                    <outlet property="delegate" destination="jzv-NS-wWR" id="c3W-xC-oM9"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="bJ1-uE-ozV"/>
+                    <connections>
+                        <outlet property="brandedLogo" destination="TGd-ZF-OhQ" id="Tcd-0N-CVj"/>
+                        <outlet property="offerSearchBar" destination="zGt-JL-5c5" id="Gx0-3R-AUU"/>
+                        <outlet property="tableView" destination="XZp-Xa-3kz" id="bu0-0u-auY"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1229" y="-801"/>
+        </scene>
+        <!--Navigation Controller - Offer-->
+        <scene sceneID="tFL-rF-enX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4r-h9-o46" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="OfferListModule" definesPresentationContext="YES" id="uDA-bY-XRx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Offer" image="first.png" id="AJB-Hk-bxU"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="B9S-zN-Z3T">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jzv-NS-wWR" kind="relationship" relationship="rootViewController" id="uDB-JX-QLE"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="758" y="-801"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uDA-bY-XRx" kind="relationship" relationship="viewControllers" id="FIl-yp-lGo"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="94" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first.png" width="30" height="30"/>
+        <image name="large_logo.png" width="400" height="400"/>
+    </resources>
+    <classes>
+        <class className="BaseVC" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BaseVC.h"/>
+        </class>
+        <class className="OfferListVC" superclassName="SideSwipeTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OfferListVC.h"/>
+            <relationships>
+                <relationship kind="outlet" name="brandedLogo" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="offerSearchBar" candidateClass="UISearchBar"/>
+            </relationships>
+        </class>
+        <class className="SideSwipeTableViewController" superclassName="BaseVC">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SideSwipeTableViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="sideSwipeView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIView.h"/>
+            <relationships>
+                <relationship kind="action" name="handleTap:" candidateClass="UIGestureRecognizer"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

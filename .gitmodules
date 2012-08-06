@@ -1,0 +1,9 @@
+[submodule "PullToRefresh"]
+	path = PullToRefresh
+	url = https://github.com/sonnyparlin/PullToRefresh.git
+[submodule "RestKit"]
+	path = RestKit
+	url = https://github.com/RestKit/RestKit.git
+[submodule "watoolkitios"]
+	path = watoolkitios
+	url = git://github.com/WindowsAzure-Toolkits/wa-toolkit-ios.git

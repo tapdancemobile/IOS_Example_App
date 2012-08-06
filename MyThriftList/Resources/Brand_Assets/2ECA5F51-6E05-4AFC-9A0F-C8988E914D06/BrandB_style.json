@@ -1,0 +1,11 @@
+{
+    "Retailer" : "RiteAid",
+    "BGColorDefault" : "#FFFFFF",
+    "TextColorDefault" : "#000000",
+    "TextStyleDefault" : "",
+    "ActionButtonColorDefault" : "#2B4387",
+    "TableRowColorDefault" : "#FFFFFF",
+    "NavBarColorDefault" : "#2B4387",
+    "TabBarColorDefault" : "#2B4387",
+    "TabBarItemSelectedColorDefault" : "#FFFFFF"
+}
