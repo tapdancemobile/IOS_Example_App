@@ -9,15 +9,13 @@ I typically will code a: **View**, **View Controller**, **Business Object**, and
 
 This App Features
 -------------------------
-1.**White Label** - This app supports creating multiple branded app targets from a single x-code project. This includes the icon, splash screen, logo, color scheme, and webservice authentication info.
-2.**CI Build** - This app supports testing from a Jenkins server for each branded target
-3.**Pull To Refresh** - This app has a pull to refresh feature
-4.**Ajax-like Search Bar** - This app has a search bar used to instantly filter the list
-5.**Custom Swipe Action** - This app has a custom swipe gesture recognizer that allows for the item in the list to have actions executed against it.
--------------------------
+1. **White Label** - This app supports creating multiple branded app targets from a single x-code project. This includes the icon, splash screen, logo, color scheme, and webservice authentication info.
+2. **CI Build** - This app supports testing from a Jenkins server for each branded target
+3. **Pull To Refresh** - This app has a pull to refresh feature
+4. **Ajax-like Search Bar** - This app has a search bar used to instantly filter the list
+5. **Custom Swipe Action** - This app has a custom swipe gesture recognizer that allows for the item in the list to have actions executed against it.
 
 To Run...
 -------------------------
 
--------------------------
 
