@@ -17,5 +17,5 @@ This App Features
 
 To Run...
 -------------------------
-
+I have a sinatra ruby script in the test directory to help with my unit tests. You will have to use this if you want to see data returned. Just navigate to the directory that server.rb is located and execute 'ruby server.rb'.
 
