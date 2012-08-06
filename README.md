@@ -6,7 +6,6 @@ This is a simple application really just intended to be a code example, but it c
 Design
 -------------------------
 I typically will code a: **View**, **View Controller**, **Business Object**, and some type of **Model**. I tend to use RestKit to handle the interaction between my **Business** objects and **Model**.
--------------------------
 
 This App Features
 -------------------------
