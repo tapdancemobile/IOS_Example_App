@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB98EC31760D2670049D422 /* BrandB-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BB98EC21760D2670049D422 /* BrandB-Info.plist */; };
+		3BB98EC51760D2860049D422 /* BrandC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BB98EC41760D2860049D422 /* BrandC-Info.plist */; };
 		6317E57C15C1CF460032C98D /* DefaultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6317E57B15C1CF460032C98D /* DefaultVC.m */; };
 		632CCD05159C9B860081BEF9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 632CCCEF159C9B860081BEF9 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		632CCD06159C9B860081BEF9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 632CCCF1159C9B860081BEF9 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -598,6 +600,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3BB98EC21760D2670049D422 /* BrandB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BrandB-Info.plist"; sourceTree = "<group>"; };
+		3BB98EC41760D2860049D422 /* BrandC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BrandC-Info.plist"; sourceTree = "<group>"; };
 		6317E57A15C1CF460032C98D /* DefaultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultVC.h; sourceTree = "<group>"; };
 		6317E57B15C1CF460032C98D /* DefaultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultVC.m; sourceTree = "<group>"; };
 		632CCCEE159C9B860081BEF9 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
@@ -715,9 +719,7 @@
 		639DAF8815926736000E7BA2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		639DAF8A1592673D000E7BA2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		639E470615D0127600EAC3AE /* BrandB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		639E470815D0127700EAC3AE /* BrandB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BrandB-Info.plist"; path = "/Users/macuser/Desktop/ExampleApp/BrandB-Info.plist"; sourceTree = "<absolute>"; };
 		639E47D015D012A500EAC3AE /* BrandC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		639E47D215D012A500EAC3AE /* BrandC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BrandC-Info.plist"; path = "/Users/macuser/Desktop/ExampleApp/BrandC-Info.plist"; sourceTree = "<absolute>"; };
 		639E47F415D0242600EAC3AE /* 0804_Initial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 0804_Initial.xcdatamodel; sourceTree = "<group>"; };
 		639E47F515D0242600EAC3AE /* MyThriftList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyThriftList.xcdatamodel; sourceTree = "<group>"; };
 		639E47FF15D02C1100EAC3AE /* offers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = offers.json; path = Fixtures/offers.json; sourceTree = "<group>"; };
@@ -757,7 +759,6 @@
 		63CFC70115937172006D6B21 /* PullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshView.m; sourceTree = "<group>"; };
 		63CFC70215937172006D6B21 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		63CFC7171593778E006D6B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		63CFC719159377BC006D6B21 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		63CFC71C15938082006D6B21 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		63CFC71D15938082006D6B21 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		63CFC71E15938082006D6B21 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
@@ -1146,10 +1147,10 @@
 		637D923C158FC2A300A92001 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BB98EC41760D2860049D422 /* BrandC-Info.plist */,
+				3BB98EC21760D2670049D422 /* BrandB-Info.plist */,
 				639E47F315D0242600EAC3AE /* ExampleApp.xcdatamodeld */,
 				637D923D158FC2A300A92001 /* ExampleApp-Info.plist */,
-				639E470815D0127700EAC3AE /* BrandB-Info.plist */,
-				639E47D215D012A500EAC3AE /* BrandC-Info.plist */,
 				637D923E158FC2A300A92001 /* InfoPlist.strings */,
 				638CF68A15B4522C0042E4E2 /* Entitlements.plist */,
 				637D9247158FC2A300A92001 /* MainStoryboard.storyboard */,
@@ -1872,6 +1873,7 @@
 				639E46FB15D0127600EAC3AE /* OfferListCell.xib in Resources */,
 				639E470015D0127600EAC3AE /* server.rb in Resources */,
 				639E480115D02C1100EAC3AE /* offers.json in Resources */,
+				3BB98EC31760D2670049D422 /* BrandB-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1953,6 +1955,7 @@
 				639E47C515D012A500EAC3AE /* OfferListCell.xib in Resources */,
 				639E47CA15D012A500EAC3AE /* server.rb in Resources */,
 				639E480215D02C1100EAC3AE /* offers.json in Resources */,
+				3BB98EC51760D2860049D422 /* BrandC-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2206,7 +2209,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				63CFC7171593778E006D6B21 /* en */,
-				63CFC719159377BC006D6B21 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
