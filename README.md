@@ -18,7 +18,7 @@ This App Features
 To Build...
 -------------------------
 The project uses git submodules. You may have to clone these submodules from the following URL(s) to get it to compile.
-Or you may be able to run the following to update: 'git submodule foreach git pull'. At Any rate the submodules may be found by running 'git submodule'.
+Or you may be able to run the following to update: 'git submodule update --init'. At Any rate the submodules may be found by running 'git submodule'.
 
 To Run...
 -------------------------
